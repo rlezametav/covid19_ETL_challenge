@@ -1,0 +1,50 @@
+{
+  "partitionToWriteStats" : {
+    "ruben" : [ {
+      "fileId" : "8107e35d-a067-48f0-bf3f-a4142566d59e-0",
+      "path" : "ruben/8107e35d-a067-48f0-bf3f-a4142566d59e-0_0-248-9699_20230110231044571.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 78,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 78,
+      "totalWriteBytes" : 441967,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "ruben",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 441967,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"my_hudi_table_record\",\"namespace\":\"hoodie.my_hudi_table\",\"fields\":[{\"name\":\"state_name\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"country_name\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"region_name\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"description\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"latitude\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"longitude\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"continent_name\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"load_user\",\"type\":\"string\"},{\"name\":\"load_time\",\"type\":{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}},{\"name\":\"update_time\",\"type\":{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}}]}"
+  },
+  "operationType" : "INSERT",
+  "writePartitionPaths" : [ "ruben" ],
+  "totalLogFilesCompacted" : 0,
+  "totalCompactedRecordsUpdated" : 0,
+  "totalLogFilesSize" : 0,
+  "totalScanTime" : 0,
+  "totalCreateTime" : 100,
+  "totalUpsertTime" : 0,
+  "minAndMaxEventTime" : {
+    "Optional.empty" : {
+      "val" : null,
+      "present" : false
+    }
+  },
+  "fileIdAndRelativePaths" : {
+    "8107e35d-a067-48f0-bf3f-a4142566d59e-0" : "ruben/8107e35d-a067-48f0-bf3f-a4142566d59e-0_0-248-9699_20230110231044571.parquet"
+  },
+  "totalRecordsDeleted" : 0,
+  "totalLogRecordsCompacted" : 0
+}

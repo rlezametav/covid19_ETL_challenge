@@ -1,0 +1,71 @@
+{
+  "partitionToWriteStats" : {
+    "ruben" : [ {
+      "fileId" : "",
+      "path" : null,
+      "prevCommit" : "null",
+      "numWrites" : 0,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 0,
+      "totalWriteBytes" : 0,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : null,
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 0,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    }, {
+      "fileId" : "8107e35d-a067-48f0-bf3f-a4142566d59e-0",
+      "path" : null,
+      "prevCommit" : "20230110231044571",
+      "numWrites" : 0,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 78,
+      "numInserts" : 0,
+      "totalWriteBytes" : 0,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : null,
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 0,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : { },
+  "operationType" : "UPSERT",
+  "writePartitionPaths" : [ "ruben" ],
+  "totalLogFilesCompacted" : 0,
+  "totalCompactedRecordsUpdated" : 0,
+  "totalLogFilesSize" : 0,
+  "totalScanTime" : 0,
+  "totalCreateTime" : 0,
+  "totalUpsertTime" : 0,
+  "minAndMaxEventTime" : {
+    "Optional.empty" : {
+      "val" : null,
+      "present" : false
+    }
+  },
+  "fileIdAndRelativePaths" : {
+    "" : null,
+    "8107e35d-a067-48f0-bf3f-a4142566d59e-0" : null
+  },
+  "totalRecordsDeleted" : 0,
+  "totalLogRecordsCompacted" : 0
+}

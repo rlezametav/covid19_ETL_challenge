@@ -1,0 +1,65 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "province_state",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "metadata": {},
+      "name": "country_region",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "metadata": {},
+      "name": "lat",
+      "nullable": true,
+      "type": "decimal(8,6)"
+    },
+    {
+      "metadata": {},
+      "name": "long",
+      "nullable": true,
+      "type": "decimal(9,6)"
+    },
+    {
+      "metadata": {},
+      "name": "date",
+      "nullable": true,
+      "type": "date"
+    },
+    {
+      "metadata": {},
+      "name": "confirmed",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "metadata": {},
+      "name": "deaths",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "metadata": {},
+      "name": "recovered",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "metadata": {},
+      "name": "active",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "metadata": {},
+      "name": "who_region",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "type": "struct"
+}
